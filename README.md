@@ -6,7 +6,6 @@
   </div>
 <!-- 动态打字效果 -->
 <div align="center">
- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jack-261108)](https://github.com/anuraghazra/github-readme-stats)
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Hello+I+am+Jack+;A+programmer+who+loves+programming" alt="Typing SVG" /></a>
 </div>
 <!-- 敲代码的图片 -->
@@ -35,7 +34,7 @@
 </div>
 <br>
 
-
+ [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jack-261108)](https://github.com/anuraghazra/github-readme-stats)
 <!-- GitHub奖杯🏆 -->
 <div align="center"><img  src="https://github-profile-trophy.vercel.app/?username=Jack-261108&theme=gruvbox&row=1&column=7&no-frame=true&no-bg=true" /></div>
 <br>
