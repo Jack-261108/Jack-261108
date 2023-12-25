@@ -35,6 +35,3 @@
 <br>
 
  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jack-261108&show_icons=true&theme=dark)
-<!-- GitHub奖杯🏆 -->
-<div align="center"><img  src="https://github-profile-trophy.vercel.app/?username=Jack-261108&theme=gruvbox&row=1&column=7&no-frame=true&no-bg=true" /></div>
-<br>
