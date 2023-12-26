@@ -35,3 +35,5 @@
 <br>
 
  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jack-261108&show_icons=true&theme=dark)
+
+<img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jack-261108&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" />
