@@ -1,31 +1,49 @@
-<!-- 动态打字效果 -->
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Hello+I+am+Jack+;A+programmer+who+loves+programming" alt="Typing SVG" /></a>
-</div>
-<!-- 敲代码的图片 -->
-<div align="center" ><img order-radius="100px" src="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/images/202108300019556.gif"/></div>
-<br>
+# Hi there 👋
 
+> 菜鸟菜的千篇一律，大佬牛逼的各不相同
 
-<div align="center">
-<!-- 个人资料徽标
-  <a href="https://sunguoqi.com/"><img src="https://img.shields.io/badge/website-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-blue"></a>&emsp;
-  <a href="https://twitter.com/sun0225SUN/"><img src="https://img.shields.io/badge/twitter-%E6%8E%A8%E7%89%B9-blue"></a>&emsp;
-  <a href="https://www.facebook.com/profile.php?id=100070064104265/"><img src="https://img.shields.io/badge/facebook-%E8%84%B8%E4%B9%A6-003472"></a>&emsp;
-  <a href="https://www.youtube.com/channel/UC4nDk0V8I1c6m3CIo0F2LIQ"><img src="https://img.shields.io/badge/youtube-%E6%B2%B9%E7%AE%A1-c32136"></a>&emsp;
-  <a href="https://blog.csdn.net/weixin_50915462/"><img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2-c32136"></a>&emsp;
-  <a href="https://space.bilibili.com/448488855/"><img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4"></a>&emsp;
-  <a href="https://www.zhihu.com/people/sunguoqi/"><img src="https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-blue"></a>&emsp;
- -->
+## 🚀 关于我
 
-# 🚀 Actions
+- 🔭 全栈开发，Java / Python / Vue
+- 🤖 AI 工具 & 自动化爱好者
+- 🛠️ 喜欢折腾，造点小轮子
+- 🌱 持续学习中...
 
-<!-- 连续提交代码天数记录 -->
-<div align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Jack-261108&theme=dark&hide_border=true" />
-</div>
-<br>
-##  今年汇总 ✨
-<br>
-<img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=Jack-261108&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" /><br>
-<img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jack-261108&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" />
+## 🛠️ 技术栈
+
+**后端**：Java · Spring Boot · Python · Flask · FastAPI
+
+**前端**：Vue · JavaScript · TypeScript · HTML/CSS
+
+**DevOps**：Docker · GitHub Actions · Linux · Nginx
+
+**其他**：Git · MySQL · Redis · RESTful API
+
+## ✨ 重点项目
+
+| 项目 | 简介 |
+|------|------|
+| [baidu-autosave](https://github.com/Jack261108/baidu-autosave) | 🚀 百度网盘自动转存工具 — 基于 GitHub Actions，定时转存、批量处理、智能去重 |
+| [remote-coding](https://github.com/Jack261108/remote-coding) | 📱 Telegram 远程 CLI 网关 — 在 TG 下发任务，远程执行 Claude Code / Codex CLI / Gemini CLI |
+| [novel](https://github.com/Jack-261108/novel) | 📚 Spring Boot 3 + Vue 3 前后端分离小说系统 |
+| [chatgpt-steam-output](https://github.com/Jack-261108/chatgpt-steam-output) | 💬 ChatGPT 流式输出方案 |
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jack-261108&show_icons=true&theme=radical&hide_border=true" alt="Jack's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jack-261108&theme=radical&hide_border=true" alt="Jack's Streak" />
+</p>
+
+## 🔗 连接我
+
+[![GitHub followers](https://img.shields.io/github/followers/Jack-261108?style=social)](https://github.com/Jack-261108)
+
+---
+
+<p align="center">
+  <i>代码写得好，头发掉得少 ✨</i>
+</p>
