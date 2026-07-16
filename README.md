@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jack-261108&theme=radical&hide_border=true" alt="Jack's Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Jack-261108&theme=radical&hide_border=true" alt="Jack's Streak" />
 </p>
 
 ## 🐍 Contribution Snake
