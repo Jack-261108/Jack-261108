@@ -1,0 +1,57 @@
+name: Generate contribution snake
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+env:
+  # 4 means only every fourth animated contribution is eaten per loop.
+  SNAKE_BITE_INTERVAL: "4"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile source
+        uses: actions/checkout@v4
+
+      - name: Generate light and dark snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#6f5be7&color_dots=#e8edf2,#82d7bd,#55bddd,#8874e6,#dc6596&color_dot_border=transparent
+            dist/snake-dark.svg?palette=github-dark&color_snake=#a998ff&color_dots=#262626,#173b4c,#257278,#5d6bd6,#c36b9d&color_dot_border=transparent
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Keep most contribution cells intact
+        run: >-
+          node scripts/limit-snake-bites.mjs
+          "$SNAKE_BITE_INTERVAL"
+          dist/snake.svg
+          dist/snake-dark.svg
+
+      - name: Publish snake assets
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

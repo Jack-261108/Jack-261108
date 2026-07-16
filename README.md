@@ -38,6 +38,16 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jack-261108&theme=radical&hide_border=true" alt="Jack's Streak" />
 </p>
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jack-261108/Jack-261108/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jack-261108/Jack-261108/output/snake.svg">
+    <img alt="Jack's contribution graph with an animated snake" src="https://raw.githubusercontent.com/Jack-261108/Jack-261108/output/snake.svg" width="100%">
+  </picture>
+</p>
+
 ## 🔗 连接我
 
 [![GitHub followers](https://img.shields.io/github/followers/Jack-261108?style=social)](https://github.com/Jack-261108)
