@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Hi, I'm Jack." src="./assets/hero-light.svg" width="100%">
+</picture>
+
 # Hi there 👋
 
 > 菜鸟菜的千篇一律，大佬牛逼的各不相同

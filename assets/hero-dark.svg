@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Hi, I'm Jack.</title>
+  <desc id="description">A dark aurora banner introducing Jack, a full-stack developer focused on Java, Python, Vue and AI automation.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d0ff"/>
+      <stop offset="0.34" stop-color="#5fe6c0"/>
+      <stop offset="0.68" stop-color="#a896ff"/>
+      <stop offset="1" stop-color="#ff9ed1"/>
+    </linearGradient>
+    <radialGradient id="cyan-glow">
+      <stop offset="0" stop-color="#39d0ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#39d0ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet-glow">
+      <stop offset="0" stop-color="#a896ff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#a896ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pink-glow">
+      <stop offset="0" stop-color="#ff9ed1" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ff9ed1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <clipPath id="panel-clip">
+      <rect x="1" y="1" width="1198" height="318" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="318" rx="28" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
+
+  <g clip-path="url(#panel-clip)">
+    <circle cx="930" cy="56" r="175" fill="url(#cyan-glow)" filter="url(#blur)"/>
+    <circle cx="1080" cy="170" r="185" fill="url(#violet-glow)" filter="url(#blur)"/>
+    <circle cx="835" cy="292" r="155" fill="url(#pink-glow)" filter="url(#blur)"/>
+
+    <rect x="1040" y="40" width="120" height="9" rx="4.5" fill="url(#aurora)" opacity="0.9"/>
+    <rect x="1090" y="70" width="70" height="9" rx="4.5" fill="url(#aurora)" opacity="0.7"/>
+    <rect x="1010" y="100" width="95" height="9" rx="4.5" fill="url(#aurora)" opacity="0.55"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="72" y="92" fill="#8b98a9" font-size="18" font-weight="600" letter-spacing="3">HELLO</text>
+    <text x="72" y="166" fill="#f0f6fc" font-size="60" font-weight="750" letter-spacing="-2">Hi, I'm Jack.</text>
+    <text x="72" y="216" fill="#c9d1d9" font-size="27" font-weight="500">菜鸟菜的千篇一律，大佬牛逼的各不相同</text>
+    <text x="72" y="266" fill="#8b98a9" font-size="17" font-weight="500" letter-spacing="0.4">全栈开发 · Java / Python / Vue · AI 工具 &amp; 自动化</text>
+  </g>
+</svg>
