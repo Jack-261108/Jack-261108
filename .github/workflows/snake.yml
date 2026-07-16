@@ -33,8 +33,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#6f5be7&color_dots=#e8edf2,#82d7bd,#55bddd,#8874e6,#dc6596&color_dot_border=transparent
-            dist/snake-dark.svg?palette=github-dark&color_snake=#a998ff&color_dots=#262626,#173b4c,#257278,#5d6bd6,#c36b9d&color_dot_border=transparent
+            dist/snake.svg?color_snake=#fe428e&color_dots=#f3e8ef,#f7a8d0,#fe428e,#e01f7a,#b3145e&color_dot_border=transparent
+            dist/snake-dark.svg?palette=github-dark&color_snake=#fe428e&color_dots=#21262d,#3d1530,#7a1f54,#fe428e,#ff79c6&color_dot_border=transparent
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
